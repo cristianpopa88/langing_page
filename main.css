@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    
+}
+
+body, html {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+	background-image: url(http://droitthemes.com/wp/faded/v1_1/wp-content/uploads/2016/12/1-2.jpg);
+	height: 100%;
+	clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+
+}
+.navigation_logo {
+
+	margin-top: 50px;
+	color: white;
+}
+
+.navigation_bar {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	color: white;
+
+}
+
+
+
+.nav_bar {
+	margin-top: 50px;
+    list-style: none; 
+    display: flex;
+	align-items: center;
+
+}
+
+.nav_bar a {
+    text-decoration: none;
+    display: inline;
+    margin: 0 1vw;
+	align-items: center;
+	margin-top: 50px;
+	color: white;
+
+}
+
+.signUp {
+    text-decoration: none;
+    margin-top: 50px;
+    max-width: 100px;
+	color: white;
+	border: 3px solid white;
+	border-radius: 40px;
+	text-align: center;	
+	width: 500px;
+
+	padding: 0.7rem;
+}
+
+.signUp a {
+	text-decoration: none;
+	color: white;
+}
+
+.content_btns {
+	margin: 3vw;
+
+}
+
+.content_btns a{
+	text-decoration: none;
+	justify-content: space-between;
+	margin: 0 1em;
+    max-width: 100px;
+	color: white;
+	border: 3px solid white;
+	border-radius: 40px;
+	text-align: center;	
+	width: 500px;
+	height: 300px;
+	padding: 9px;
+
+}
+
+
+
+.iphone_img {
+	margin: 0 20vw;
+	
+}
+
+.over {
+	z-index: 2;
+	position: absolute;
+	top: 209px;
+    size: cover;
+
+}
+.under {
+	z-index: 1;
+	position: absolute;
+    size: cover;
+    background-position: center;
+
+}
+
+.piscot {
+    display: flex;
+    flex-direction: column;
+	align-content: stretch;
+	margin: 250px 0 250px 0;
+	text-align: left;
+
+}
+
+.piscot p {
+    max-width: 28vw;
+    align-items: stretch;
+	color: white;
+
+}
+
+.container1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: stretch;
+
+}
+
+
+.container2 {
+	text-align: center;
+	padding: 3vw;
+	margin: 0 250px;
+
+}
+
+.container2 h1 + p {
+	display: flex;
+	padding: 3vw;
+	margin: 2vw;
+	align-items: flex-end;
+	margin: auto;
+	text-align: center;
+	max-width: 40vw;
+
+}
+
+.icons {
+	display: flex;
+	padding: 5vw;
+	margin: 0 4vw;
+
+}
+
+.pencil i,
+.heart i,
+.gear i,
+.telephone i,
+.fas fa-ellipsis-h	{
+	font-size: 5vw;
+	color: darkblue;
+
+}
+
+.container2 p{
+	color: lightslategrey;
+
+}
+
+.container2 h3 {
+	color: dimgrey;
+
+}
+
+.container3 {
+	text-align: center;
+	padding: 3vw;
+	margin: 0;
+    color: white;
+
+}
+
+.img_ctn3 {
+	display: flex;
+	justify-content: space-between;
+	margin: 2vw;
+
+}
+
+.list_ctn3 {
+	display: flex;
+	justify-content: space-between;
+
+}
+.list_ctn3 h4 p{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: auto;
+	text-align: center;
+	max-width: 40vw;
+
+
+}
+
+.img_center {
+	margin: 3vw 0;
+    justify-content: center;
+
+}
+
+.testulet {
+	background-color: #7c4dff;
+	background-size: cover;
+    background-position: center;
+
+}
+
+.container5 {
+	text-align: center;
+	padding: 3vw;
+	margin: 3vw;
+
+}
+
+#nav_bar {
+	margin: 2rem 0;
+}
+
+.container5 p {
+	
+	margin: 3rem 0;
+}
+
+#nav_bar li {
+	display: inline;
+	justify-content: center;
+	list-style: none;
+	text-decoration: none;
+	padding: 2rem;
+	margin: 30px 0;
+	max-width: 30em;
+
+	
+}
+
+.erou {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	max-width: 70vw;
+	margin: auto;
+
+}
+
+/* .clip_pat{
+	background-image:url(http://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-photography-backgrounds-hd.jpg);
+	height: 100%;
+	clip-path: polygon(-1px 416px,961px 334px,963px 1px,1px 78px);
+    background-size: cover;
+    background-position: center;
+	
+} */
+	#video-section {
+    height: 100vh;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.87), rgba(128, 0, 128, 0.55)), url("images/bridge.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    position: relative;
+    margin-bottom: 7rem;
+}
+
+#video-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#video-wrapper i {
+    font-size: 6rem;
+    color: #fff;
+}
+
+#video-wrapper h2 {
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem;
+    font-weight: 400;
+}
+
+.container7 {
+	text-align: center;
+
+}
+
+.container7 h1 {
+	text-transform: uppercase;
+	padding: 3rem 0;
+
+}
+
+
+
+.casuta {
+	display: flex;
+	justify-content: center;
+	align-items:flex-end; 
+	
+}
+
+.casute img {
+	-webkit-clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+	width: 100%;
+	height: auto;
+}
+
+.casute {
+	display: flex;
+	margin: 3rem 5rem;
+	box-shadow: 0 5px 8px #ccc;	
+	justify-content: center;
+	padding-right: 200px;
+}
+
+
+.purina {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: center;
+	
+}
+
+.container7 p {
+	max-width: 40rem;
+
+	margin: auto;
+}
+
+
+
+
+
+
