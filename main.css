@@ -62,7 +62,6 @@ body, html {
 	border-radius: 40px;
 	text-align: center;	
 	width: 500px;
-
 	padding: 0.7rem;
 }
 
@@ -73,7 +72,6 @@ body, html {
 
 .content_btns {
 	margin: 3vw;
-
 }
 
 .content_btns a{
@@ -88,14 +86,12 @@ body, html {
 	width: 500px;
 	height: 300px;
 	padding: 9px;
-
 }
 
 
 
 .iphone_img {
-	margin: 0 20vw;
-	
+	margin: 0 20vw;	
 }
 
 .over {
@@ -117,7 +113,7 @@ body, html {
     display: flex;
     flex-direction: column;
 	align-content: stretch;
-	margin: 250px 0 250px 0;
+	margin: 250px 0;
 	text-align: left;
 
 }
@@ -188,14 +184,12 @@ body, html {
 	padding: 3vw;
 	margin: 0;
     color: white;
-
+	overflow-x:hidden;
 }
 
 .img_ctn3 {
-	display: flex;
-	justify-content: space-between;
+	display: flex;	
 	margin: 2vw;
-
 }
 
 .list_ctn3 {
@@ -207,31 +201,24 @@ body, html {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	margin: auto;
-	text-align: center;
-	max-width: 40vw;
-
-
+	justify-content: center;
 }
 
-.img_center {
+.img_ctn3 {
 	margin: 3vw 0;
     justify-content: center;
-
 }
 
 .testulet {
 	background-color: #7c4dff;
 	background-size: cover;
     background-position: center;
-
 }
 
 .container5 {
 	text-align: center;
 	padding: 3vw;
 	margin: 3vw;
-
 }
 
 #nav_bar {
@@ -261,18 +248,11 @@ body, html {
 	align-content: center;
 	max-width: 70vw;
 	margin: auto;
-
+	overflow-x:hidden;
 }
 
-/* .clip_pat{
-	background-image:url(http://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-photography-backgrounds-hd.jpg);
-	height: 100%;
-	clip-path: polygon(-1px 416px,961px 334px,963px 1px,1px 78px);
-    background-size: cover;
-    background-position: center;
-	
-} */
-	#video-section {
+
+#video-section {
     height: 100vh;
     background-image: linear-gradient(rgba(128, 0, 128, 0.87), rgba(128, 0, 128, 0.55)), url("images/bridge.jpg");
     background-position: center;
@@ -349,9 +329,336 @@ body, html {
 
 .container7 p {
 	max-width: 40rem;
-
 	margin: auto;
 }
+
+.container8 {
+    text-align: center;
+	background-image: url(https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	position: relative;
+	
+}
+
+
+
+.transparent {
+	background-color: rgba(220, 203, 225, 0.4);
+	padding: 3rem 0;
+	
+}
+
+.transparent > p {
+	margin: 1rem 0;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+	overflow-x:hidden;
+	
+}
+
+.ceo {
+	 margin: 3rem 3rem;		
+}
+
+.ceo img {
+    max-height: 15rem;
+    max-width: 12rem;
+	width: 100%;
+    height: 100%;
+	border-radius: 15px 15px;
+}
+
+.ceo h3 p {
+     text-align: center;
+}
+
+.team {
+	overflow-y: hidden;
+}
+
+.team--contact {
+	background-color: white;
+	border-radius: 15px 15px;
+}
+
+.icons--team {
+	font-size: 1.5rem;
+	color: dimgrey;	
+}
+
+hr { 
+  height: 2px;
+  color: rgb(220, 203, 225);
+  background-color: rgb(220, 203, 225);
+  border: none;
+}
+
+.container9 {
+	text-align: center;
+	padding: 3rem;
+	margin: 1rem 0;
+}
+
+.pricing--table {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.pricing--data {
+	position: flex;
+	border: 1.5px solid #AAAAAA;
+	margin: 0 3rem;
+	width: 17rem;
+	height: 24rem;	
+}
+
+.pricing--data h4 {
+	align-content: center;
+	justify-content: center;
+	margin: 3rem 0;
+}
+
+.pricing--data p {
+	margin: 0.5rem 0;
+}
+
+.best--value {
+	box-shadow: 0 5px 8px #ccc;	
+}
+
+.container9--heading {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.icn--prc--table {
+	font-size: 3rem;
+	color: dimgrey;
+	margin: 1rem 0;
+}
+
+.pricing--data--text {
+	margin: 1rem 0;
+}
+ 
+.pricing--data2 {
+	position: flex;
+	border: 1.5px solid #AAAAAA;
+	margin: -0.5rem 3rem;
+	width: 18rem;
+	height: 28rem;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+.pricing--data2 p {
+	margin: 0.5rem 0;
+}
+
+.price-details h4{
+	margin: 3rem 0;
+}
+
+.container10 {
+	background-color: lightgrey;	
+	align-items: center;
+}
+
+.container10--data {
+	display: flex;
+	margin: 0 350px;
+
+}
+
+.ctn10--left {
+	justify-content: center;
+	align-items: center;
+	margin: 11rem 1rem;
+}
+
+.faq--image {
+	background-color: red;
+}
+.FAQ {
+	padding-bottom: 4rem;
+}
+
+.FAQ h3 {
+	padding-bottom: 1rem;
+}
+
+.faq--p {
+	margin-left: 3rem;
+}
+
+.container11 {
+	overflow-x: hidden;
+}
+
+.ctn11--header {
+	text-align: center;
+	margin: 3rem;
+}
+
+.ctn11--read--more {
+	display: flex;
+}
+
+.ctn11--read--more--info {
+	max-width: 28rem;
+	margin: 0 4rem;	
+}
+
+
+
+.img--clip {
+	clip-path: polygon(0 0, 100% 0, 100% 78%, 0 65%);
+}
+
+.blog--button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+	border: 1.8px solid blue;
+	border-radius: 19px;
+	width: 10rem;
+	height: 3rem;
+	text-align: center;
+	margin: 3rem auto;
+	max-width: 330px;	
+}
+
+.container12{
+	background-image: url("http://droitthemes.com/wp/faded/v1_1/wp-content/uploads/2016/11/bg-1.jpg");
+
+	overflow-x: hidden;	
+}
+
+.ctn12--content {
+	display: flex;
+	align-items:center;
+}
+
+.store--aps1{
+	background-color: grey;
+	max-width: 12rem;
+	max-height: 3rem;
+
+	border-radius: 3px;
+}
+
+.store--aps2{
+	background-color: grey;
+	max-width: 12rem;
+	max-height: 3rem;
+	margin-left: 1rem;
+	border-radius: 3px;
+}
+
+.purchase--app {
+	display: flex;
+	flex-direction: column;
+	margin: 0 100px 0 350px;
+}
+
+.purchase--app p {
+	margin: 2rem 0;
+}
+
+.ctn99 {
+	display: flex;
+	margin: 2rem 0;
+}
+
+.clippy--zippy {
+	clip-path: polygon(51% 0, 74% 0, 80% 26%, 63% 53%, 0% 75%, 0 0);
+	margin: 5rem 0 0 7rem;
+}
+
+
+.container13 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://droitthemes.com/wp/faded/v1_1/wp-content/uploads/2016/11/bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: auto;
+	background-color: aliceblue;
+}
+
+.container13 h2{
+	text-align: center;
+
+}
+
+.paragh p {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.mimimimi {
+	background-color: aqua;
+
+	height: 400px;
+	width: 350px;
+	
+}
+
+.ctc--form {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	margin-left: 3rem;
+}
+
+.icons--ctn13 a{
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.ctn13--input{
+	background-color: antiquewhite;
+	width: 300px;
+	height: 400px;
+	margin-left: 2rem;
+	overflow-x: hidden;
+}
+
+.free-text-form {
+	margin: 2em 0;
+	max-width: 300px;
+	word-wrap: normal;
+	max-height: 200px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+.ctn13--h2 {
+	padding-top: 3rem;
+}
+
+/*
+.overlay-img {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+*/
+
+.sbt--button {
+	background-color: yellow;
+	
+}
+
+
+
+
+
+
+
 
 
 
